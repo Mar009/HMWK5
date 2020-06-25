@@ -20,6 +20,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
+
+    <link rel="text/javascript" href="script.js">
   </head>
 
   <body>
@@ -30,65 +32,78 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <!-- rows with the imput & lock btn  -->
-      <table style="width:inherit">
-      <!-- 6am -->
-        <tr id="row1">
-          <td>6 AM</td>
-          <td><div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="6 AM" aria-label="6 AM" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2">LOCK</button>
-            </div>
-          </div></td>
-        </tr>
-      <!-- 7am -->
-      <tr id="row2">
-        <td>7 AM</td>
-        <td><div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="7 AM" aria-label="7 AM" aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">LOCK</button>
-          </div>
-        </div></td>
-      </tr>
-   
-      <!-- 8am -->
-      <tr id="row1">
-        <td>8 AM</td>
-        <td><div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="8 AM" aria-label="8 AM" aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">LOCK</button>
-          </div>
-        </div></td>
-      </tr>
-    
       <!-- 9am -->
-      <tr id="row1">
-        <td>9 AM</td>
-        <td><div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="9 AM" aria-label="9 AM" aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">LOCK</button>
-          </div>
-        </div></td>
-      </tr>
-     
+      <div class = "time block row" id= '9'>
+        <div class = "col-md-1 hour">
+        9AM
+        </div>
+        <textarea class= "col-md-10 description" id='hr9'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 10am -->
+      <div class = "time block row" id= '10'>
+        <div class = "col-md-1 hour">
+        10AM
+        </div>
+        <textarea class= "col-md-10 description" id='hr10'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 11am -->
+      <div class = "time block row" id= '11'>
+        <div class = "col-md-1 hour">
+        11AM
+        </div>
+        <textarea class= "col-md-10 description" id='hr11'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 12am -->
+      <div class = "time block row" id= '12'>
+        <div class = "col-md-1 hour">
+        12PM
+        </div>
+        <textarea class= "col-md-10 description" id='hr12'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 1pm -->
+      <div class = "time block row" id= '1'>
+        <div class = "col-md-1 hour">
+        1PM
+        </div>
+        <textarea class= "col-md-10 description" id='hr1'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 2pm -->
+      <div class = "time block row" id= '2'>
+        <div class = "col-md-1 hour">
+        6AM
+        </div>
+        <textarea class= "col-md-10 description" id='hr2'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 3pm -->
+      <div class = "time block row" id= '3'>
+        <div class = "col-md-1 hour">
+        3PM
+        </div>
+        <textarea class= "col-md-10 description" id='hr3'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 4pm -->
+      <div class = "time block row" id= '4'>
+        <div class = "col-md-1 hour">
+        4PM
+        </div>
+        <textarea class= "col-md-10 description" id='hr4'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       <!-- 5pm -->
-      <!-- 6pm -->
-      <!-- 7pm -->
-      <!-- 8pm -->
-      <!-- 9pm -->
-      <!-- 10pm -->
-    </table>
+      <div class = "time block row" id= '5'>
+        <div class = "col-md-1 hour">
+        5PM
+        </div>
+        <textarea class= "col-md-10 description" id='hr5'></textarea>
+        <button class = "btn saveBtn col-md-1 btn-info"><i class = "fas fa-save"></i></button>
+      </div>
       
     </div>
 
