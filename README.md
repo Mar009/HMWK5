@@ -7,5 +7,5 @@ this is achieved by
     4- when clicking a timeblock the user can enter an event
     5- the user can save the event 
     6- when the pg is refreshed, the events will still be there
-    Develop/index.html
+ 
 https://mar009.github.io/HMWK5/
